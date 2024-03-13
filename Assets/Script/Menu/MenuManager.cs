@@ -14,11 +14,12 @@ public class MenuManager : MonoBehaviour
     }
 
     
+
     public void OpenMenuName (string menuName)
     {
         for (int i = 0; i < menus.Length; i++)
         {
-            if (menus[i].name == menuName)
+            if (menus[i].nameMenu == menuName)
             {
                 menus[i].Visible();
             }
@@ -48,6 +49,4 @@ public class MenuManager : MonoBehaviour
         menu.NoVisible();
     }
 
-   
- 
 }
