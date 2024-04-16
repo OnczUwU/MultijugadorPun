@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using TMPro;
+using Photon.Realtime;
 
 
 public class Launcher : MonoBehaviourPunCallbacks
@@ -10,6 +11,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] TMP_InputField roomNameInputField;
     [SerializeField] TMP_Text roomName;
     [SerializeField] TMP_Text ErrorMessage;
+    [SerializeField] Transform roomListContend;
+    [SerializeField] GameObject roomItemPrefab;
     
     void Start()
     {
@@ -67,5 +70,17 @@ public class Launcher : MonoBehaviourPunCallbacks
         MenuManager.Instance.OpenMenuName("Home");
     }
 
+    public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    {
+        foreach(Transform transform in roomListContend)
+        {
+            Destroy(transform.gameObject);
+        }
+
+        for (int i = 0; i < roomList.Count; i++)
+        {
+            Instantiate(roomItemPrefab, roomListContend).GetComponent<RoomListItem>().SetUp(roomList[i]);
+        }
+    }
 
 }
