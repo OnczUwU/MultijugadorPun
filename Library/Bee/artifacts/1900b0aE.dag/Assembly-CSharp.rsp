@@ -383,6 +383,7 @@
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Script/InGameManager/RoomManager.cs"
 "Assets/Script/Launcher.cs"
 "Assets/Script/Menu/MenuManager.cs"
 "Assets/Script/Menu/MenuVisibility.cs"

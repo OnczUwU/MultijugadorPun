@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\assets\\script\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|c:\\users\\onczu\\desktop\\clone\\multijugadorpun\\assets\\script\\ingamemanager\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ingamemanager\\roommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|c:\\users\\onczu\\desktop\\clone\\multijugadorpun\\assets\\script\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\menu\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|c:\\users\\onczu\\desktop\\clone\\multijugadorpun\\assets\\menuitem\\roomlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\assets\\menuitem\\roomlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3B83D43-D2A6-538D-AC61-7098A89D6951}|Assembly-CSharp.csproj|solutionrelative:assets\\menuitem\\roomlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "RoomManager.cs",
+              "DocumentMoniker": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\Script\\InGameManager\\RoomManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\InGameManager\\RoomManager.cs",
+              "ToolTip": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\Script\\InGameManager\\RoomManager.cs",
+              "RelativeToolTip": "Assets\\Script\\InGameManager\\RoomManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T21:16:15.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RoomListItem.cs",
               "DocumentMoniker": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\MenuItem\\RoomListItem.cs",
               "RelativeDocumentMoniker": "Assets\\MenuItem\\RoomListItem.cs",
@@ -43,20 +60,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\Script\\Menu\\MenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Menu\\MenuManager.cs",
               "ToolTip": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\Script\\Menu\\MenuManager.cs",
               "RelativeToolTip": "Assets\\Script\\Menu\\MenuManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA8AAAAEAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T00:55:13.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuVisibility.cs",
               "DocumentMoniker": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\Script\\Menu\\MenuVisibility.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Menu\\MenuVisibility.cs",
@@ -69,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Launcher.cs",
               "DocumentMoniker": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\Script\\Launcher.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Launcher.cs",
               "ToolTip": "C:\\Users\\onczu\\Desktop\\CLone\\MultijugadorPun\\Assets\\Script\\Launcher.cs",
               "RelativeToolTip": "Assets\\Script\\Launcher.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAtwFYAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAA0wDsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T00:55:13.507Z",
               "EditorCaption": ""

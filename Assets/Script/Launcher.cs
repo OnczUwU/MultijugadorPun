@@ -13,6 +13,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     [SerializeField] TMP_Text ErrorMessage;
     [SerializeField] Transform roomListContend;
     [SerializeField] GameObject roomItemPrefab;
+    [SerializeField] GameObject BotonStart;
     
     void Start()
     {
@@ -50,6 +51,19 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         MenuManager.Instance.OpenMenuName("Room");
         roomName.text = PhotonNetwork.CurrentRoom.Name;
+
+        /*foreach(Transform playerT in PlayerListContent)
+        {
+            Destroy(playerT.gameObject);
+        }
+        Player[] players = PhotonNetwork.PlayerList;
+
+        for (int i = 0; i <players.Count(); i++)
+        {
+            Instantiate(PlayerItemPrefab, PlayerListContent).GetComponent<PlayerListItem>().SetUp(players[i]);
+        }
+
+        BotonStart.SetActive(PhotonNetwork.IsMasterClient);*/
      
     
     }
@@ -83,4 +97,13 @@ public class Launcher : MonoBehaviourPunCallbacks
         }
     }
 
+    public void StartGame()
+    {
+        PhotonNetwork.LoadLevel(1);
+    }
+
+    public override void OnMasterClientSwitched(Player newMasterClient)
+    {
+        BotonStart.SetActive(PhotonNetwork.IsMasterClient);
+    }
 }
