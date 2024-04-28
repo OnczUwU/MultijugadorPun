@@ -4,11 +4,13 @@ using UnityEngine;
 using Photon.Realtime;
 using TMPro;
 
+
 public class RoomListItem : MonoBehaviour
 {
 
     [SerializeField] TMP_Text RoomListName;
-    RoomInfo roomInfo;
+
+    public RoomInfo roomInfo;
 
 
     public void SetUp(RoomInfo _info)
@@ -18,6 +20,6 @@ public class RoomListItem : MonoBehaviour
     }
     public void OnClick()
     {
-
+        Launcher.Instance.JoinRoom(roomInfo);
     }
 }
